@@ -1,5 +1,7 @@
 # Use Case: Public Multi-Model API
 
+**YouTube walkthrough:** [Public Multi Model Api — System Design #Shorts](https://youtu.be/CaUse052go8)
+
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
@@ -47,6 +49,9 @@ Reuse full **09** control plane; fleets from **01**; streaming from [02](../02-s
 
 
 ## Design walkthrough (opens on GitHub)
+
+> **Watch on YouTube:** [Public Multi Model Api — System Design #Shorts](https://youtu.be/CaUse052go8)
+
 
 ![Design overview](docs/video/design-overview.gif)
 
