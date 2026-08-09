@@ -45,6 +45,13 @@ Reuse full **09** control plane; fleets from **01**; streaming from [02](../02-s
 
 
 
+
+## Design walkthrough (opens on GitHub)
+
+![Design overview](docs/video/design-overview.gif)
+
+Full narrated video (download): [docs/video/design-overview.mp4](docs/video/design-overview.mp4)
+
 ## Run (self-contained POC)
 
 This folder is a **standalone** project (safe to split into its own GitHub repo).
