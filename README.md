@@ -7,8 +7,8 @@
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
-**Parent system design:** [09 — Multi-Model Routing / API Platform](../09-multi-model-routing-api-platform.md)  
-**Also references:** [01 — Inference](../01-llm-inference-serving.md)
+**Parent system design:** [09 — Multi-Model Routing / API Platform](./09-multi-model-routing-api-platform.md)  
+**Also references:** [01 — Inference](./01-llm-inference-serving.md)
 
 ## Users & problem
 
@@ -26,11 +26,11 @@ External developers call a public API across many models with keys, docs, SDKs, 
 ## Design (from parent)
 
 ```
-Edge → gateway → quota → router → fleets ([01](../01-llm-inference-serving.md))
+Edge → gateway → quota → router → fleets ([01](./01-llm-inference-serving.md))
   → metering → developer console
 ```
 
-Reuse full **09** control plane; fleets from **01**; streaming from [02](../02-streaming-token-delivery.md).
+Reuse full **09** control plane; fleets from **01**; streaming from [02](./02-streaming-token-delivery.md).
 
 ## Specializations
 
@@ -39,7 +39,7 @@ Reuse full **09** control plane; fleets from **01**; streaming from [02](../02-s
 | DX | Status page, error taxonomy, SDKs |
 | Abuse | Carding/spend attacks → fast kill |
 | Deprecation | Long pin windows |
-| Safety | [06](../06-safety-moderation-pipeline.md) on all routes |
+| Safety | [06](./06-safety-moderation-pipeline.md) on all routes |
 
 ## Failure modes
 
