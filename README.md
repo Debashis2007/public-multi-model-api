@@ -1,5 +1,7 @@
 # Use Case: Public Multi-Model API
 
+**Author fingerprint:** `DBHATT-Debashis2007-SystemDesignPOC-2026` — Debashis Bhattacharjee ([@Debashis2007](https://github.com/Debashis2007))
+
 **YouTube walkthrough:** [Public Multi Model Api — System Design #Shorts](https://youtu.be/CaUse052go8)
 
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
